@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box
+}
+
+body,
+html,
+.root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template: repeat(16, 6.25%) / repeat(16, 6.25%);
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  grid-row: 1;
+  grid-column: 1 / 17;
+}
