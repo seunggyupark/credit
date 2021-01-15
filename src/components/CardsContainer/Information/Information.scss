@@ -1,0 +1,15 @@
+.information {
+  height: 100%;
+  width: 60%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #f2f6f8;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}

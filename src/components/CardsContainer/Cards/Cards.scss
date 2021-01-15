@@ -1,0 +1,24 @@
+.cards {
+  height: 100%;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #dfdfdf;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px;
+}
+
+.cards__container {
+  height: 100%;
+  width: 85%;
+  
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}

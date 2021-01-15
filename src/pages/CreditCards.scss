@@ -1,11 +1,12 @@
 .credit-cards {
-    height: 90vh;
-    width: 90%;
+    padding: 20px;
+    min-width: 800px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(253, 186, 0);
+    background-color: #fccf4b;
     border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
